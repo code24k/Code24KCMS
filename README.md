@@ -1,3 +1,3 @@
 # Code24KCMS
-The electricity system
+The company system
 Code24KCMS
