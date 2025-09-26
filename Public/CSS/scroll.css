@@ -1,0 +1,64 @@
+/*
+  修改Webkit内核，滚动条样式
+*/
+
+/*滚动条的宽高*/
+::-webkit-scrollbar {
+    display: none;
+    width: 8px;
+    height: 8px;
+  }
+  
+  /* // 定义滚动条滑块的颜色值 + 默认不显示 */
+  ::-webkit-scrollbar-thumb {
+    display: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  
+    @include themify() {
+      /* // background-color: themed('scroll-bar');
+      // display: none; */
+      background-color: rgba(144, 147, 153, 0.3);
+  
+    }
+  }
+  
+  /* // 鼠标经过滑块的时候才显示 */
+  .home-wrap:hover ::-webkit-scrollbar-thumb {
+    /* // display: none; */
+    background-color: rgba(144, 147, 153, 0.3);
+  }
+  
+  /*
+    修改IE浏览器默认的滚动条样式
+  */
+  div {
+    scrollbar-face-color: #9aa1c4;
+    /* 滚动条滑块按钮的颜色 */
+    scrollbar-highlight-color: #F60;
+    /* 滚动条整体颜色 */
+    scrollbar-3dlight-color: #F00;
+    scrollbar-darkshadow-color: #000;
+    /* 滚动条阴影 */
+    scrollbar-Shadow-color: #000;
+    /* 三角箭头颜色 */
+    scrollbar-arrow-color: #394264;
+    /* 滚动条轨道颜色 */
+    scrollbar-track-color: #394264;
+  }
+  
+  /*
+    修改firefox浏览器默认滚动条样式 
+  */
+  div {
+    scrollbar-width: none;
+    scrollbar-color: transparent transparent;
+  }
+  
+  .home-wrap:hover div {
+    scrollbar-width: none;
+    scrollbar-color: rgba(144, 147, 153, 0.3) #fff;
+  }

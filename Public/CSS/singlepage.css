@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+/*#singlePage*/
+#singlePage {
+    width: 100%;
+    float: left;
+}
+#singlePage .body {
+    width: 1300px;
+    margin: 0px auto;
+}
+#singlePage .body .left {
+    width: 260px;
+    float: left;
+}
+#singlePage .body .left ul {
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+#singlePage .body .left .articleRecom {
+    margin-top: 5px;
+    width: 100%;
+    float: left;
+}
+#singlePage .body .left a {
+    color: #333333;
+}
+#singlePage .body .left .articleRecom .con {
+    width: 240px;
+    padding: 5px 10px;
+    background-image: url(/Imagecon_bg.png);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    overflow: hidden;
+    float: left;
+}
+#singlePage .body .left .articleRecom .con li {
+    width: 100%;
+    line-height: 30px;
+    border-bottom: 1px dashed #fbfbfb;
+    overflow: hidden;
+    float: left;
+}
+#singlePage .body .left .productRecomm {
+    margin-top: 5px;
+    width: 100%;
+    float: left;
+}
+#singlePage .body .left .productRecomm .con {
+    width: 100%;
+    background-image: url(/Imagecon_bg.png);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    overflow: hidden;
+    float: left;
+}
+#singlePage .body .left .productRecomm .con li {
+    width: 200px;
+    padding: 0px 10px;
+    height: 35px;
+    line-height: 35px;
+    /*background-image: url(/Imagecon_cate_bg_curr.png);*/
+    border-bottom: 1px solid #fbfbfb;
+    overflow: hidden;
+    float: left;
+}
+#singlePage .body .left .productRecomm .con li:hover {
+    background-image: url(/Imagecon_cate_bg_curr.png);
+}
+#singlePage .body .left .productRecomm .con li:hover a{
+    color: #fff;
+}
+#singlePage .body .left .contact {
+    margin-top: 5px;
+    width: 100%;
+    float: left;
+}
+#singlePage .body .left .contact .con {
+    width: 100%;
+    background-image: url(/Imagecon_bg.png);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    overflow: hidden;
+    float: left;
+}
+#singlePage .body .left .contact .con img {
+    width: 100%;
+    height: 100px;
+}
+#singlePage .body .right {
+    margin-top: 5px;
+    width: 1030px;
+    float: right;
+}
+#singlePage .body .right .con {
+    width: 1010px;
+    padding: 10px;
+    background-image: url(/Imagecon_bg.png);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    overflow: hidden;
+    float: left;
+}
+#singlePage .body .right .con .line {
+    width: 100%;
+    color: #333333;
+    float: left;
+}
+#singlePage .body .right .con .line a {
+    color: #333333;
+}
+#singlePage .body .right .con .line .title {
+    width: 600px;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px dashed #fbfbfb;
+    float: left;
+}
+#singlePage .body .right .con .line .date {
+    width: 130px;
+    height: 30px;
+    font-style: italic;
+    border-bottom: 1px dashed #fbfbfb;
+    float: left;
+}
+#singlePage .body .right .con .page {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+}
+#singlePage .body .right .artTitle {
+    width: 100%;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+}
+#singlePage .body .right .artTitle a {
+    color: #333333;
+    font-size: 18px;
+}
+#singlePage .body .right .artAuthor {
+    width: 100%;
+    line-height: 25px;
+    font-size: 14px;
+    text-align: center;
+    color: #333333;
+    float: left;
+}
+#singlePage .body .right .artContent {
+    width: 100%;
+    line-height: 25px;
+    font-size: 14px;
+    color: #333333;
+    float: left;
+}

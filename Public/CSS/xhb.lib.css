@@ -1,0 +1,167 @@
+html { overflow-x:hidden; }
+body { font-family: "Microsoft YaHei"; }
+input, button, select, textarea { outline: none; }
+.XHB-iframe-main { width: 1000px; height: 500px; margin: 10px 0px; padding: 0px; overflow-x:hidden; overflow-y:auto; border: 0px; border-radius: 4px;
+    box-shadow: 0px 0px 10px #333333; float: left;}
+.XHB-footer { width: 100%; height: auto; float: left; }
+.XHB-footer .container { width: 1000px; height: auto; min-height: 40px; margin: 0px auto; color: #666; text-align: center; line-height: 30px;}
+.XHB-input-lable { padding: 7px 5px 0px 5px; font-size: 15px; color: #FFFFFF; float: left; outline:none; }
+.XHB-input-lable-right { padding: 7px 5px 0px 5px; font-size: 15px; color: #FFFFFF; text-align: right; float: left; outline:none; }
+.XHB-input-panel { padding: 3px 5px; font-size: 15px; color: #FFFFFF; float: left;}
+.XHB-input-mark { padding: 7px 5px 0px 5px; font-size: 15px; color: #FFFFFF; float: left; outline:none;}
+.XHB-input-mark a { font-size: 15px; color: #FFFFFF; }
+.XHB-input-text-center { padding: 7px 5px 0px 5px; font-size: 15px; text-align: center; color: #FFFFFF; float: left; outline:none;}
+.XHB-input-text { width: 220px; height: 30px; border: 1px solid #ccc; font-size: 15px; color: #666; padding: 0px 10px; border-radius: 4px; outline:none; }
+.XHB-input-radio { padding: 10px 2px 0px 2px; height: 32px; color: #333; display: block; float: left; }
+.XHB-input-radio-signal { margin-right: 15px; float: left;}
+.XHB-input-textarea { border: 1px solid #ccc; font-size: 15px; color: #666; padding: 10px; border-radius: 4px; text-align: left; }
+.XHB-input-select { width: 180px; border: 1px solid #ccc; font-size: 15px; color: #666; height: 35px; font-size: 15px; padding: 5px; }
+.XHB-input-radio { font-size: 15px; color: #666; height: 20px; font-size: 15px;  padding: 10px; }
+.XHB-input-button-red { width: auto; padding: 0px 10px; height: 30px; border: 1px solid #e4393c; background-color: #e4393c;
+    border-radius: 4px; color: #fff; font-size: 15px; cursor: pointer; }
+.XHB-input-button-blue { padding: 0px 10px; height: 30px; border: 1px solid #1E9FFF; background-color: #1E9FFF; border-radius: 4px;
+    color: #fff; font-size: 15px; cursor: pointer; }
+.XHB-input-button-gray { padding: 0px 10px; height: 30px; border: 1px solid #333; background-color: #333; border-radius: 4px;
+    color: #fff; font-size: 15px; cursor: pointer;}
+.XHB-button-green { width: auto; min-width: 100px; padding: 0px 10px; height: 30px; border: none; background-color: #009688;
+    border-radius: 2px; color: #FFFFFF; font-size: 15px; cursor: pointer;}
+.XHB-button-green:hover { width: auto; min-width: 100px; padding: 0px 10px; height: 30px; border: none; background-color: rgba(0, 150, 136, 0.8);
+    border-radius: 2px; color: #FFFFFF; font-size: 15px; cursor: pointer;}
+.XHB-button-green-a { width: auto; min-width: 50px; padding: 3px 10px; height: 30px; border: none; background-color: #009688;
+    border-radius: 2px; color: #FFFFFF; font-size: 15px; cursor: pointer;}
+.XHB-button-green-a:hover { width: auto; min-width: 50px; padding: 3px 10px; height: 30px; border: none; background-color: rgba(0, 150, 136, 0.8);
+    border-radius: 2px; color: #FFFFFF; font-size: 15px; cursor: pointer;}
+.XHB-input-button-a { padding: 6px 8px; }
+.XHB-input-button-a:hover { color: #fff; }
+.XHB-input-button-default { width: auto; padding: 0px 10px; height: 30px; border: 1px solid #ccc; background-color: #fff; border-radius: 4px;
+    color: #666; font-size: 15px; cursor: pointer;}
+
+.XHB-nav-tab2 { padding-left: 30px; width: 100%; height: 40px; border-bottom: 1px solid #1E9FFF; }
+.XHB-nav-tab2 .item { margin: 8px 0px 0px 5px; padding: 5px 20px 0px 20px; color: #1E9FFF; border-left: 1px solid #1E9FFF;
+    border-right: 1px solid #1E9FFF; border-top: 1px solid #1E9FFF; background-color: #fff; height: 26px; float: left; }
+.XHB-nav-tab2 .active { color: #fff; background-color: #1E9FFF; border: 1px solid #1E9FFF; }
+.XHB-nav-tab2-gray { padding-left: 30px; width: 100%; height: 40px; border-bottom: 1px solid #333; }
+.XHB-nav-tab2-gray { padding-left: 30px; width: 100%; height: 40px; border-bottom: 1px solid #333; }
+.XHB-nav-tab2-gray .item { margin: 8px 0px 0px 5px; padding: 5px 20px 0px 20px; color: #999; border-left: 1px solid #333; border-right: 1px solid #333; 
+    border-top: 1px solid #333; background-color: #fff; height: 26px; float: left; }
+.XHB-nav-tab2-gray .active { color: #fff; background-color: #333; border: 1px solid #333;}
+
+.XHB-status-success { color: green; }
+.XHB-status-danger { color: red; }
+.XHB-status-warning { color: #FFC125; }
+.XHB-display-hide { display: none; }
+.XHB-display-show { display: block; }
+
+.XHB-nav-home { width: 100%; height: 30px; margin-top: 5px; float: left;}
+.XHB-nav-home .container { padding: 0px 10px; margin-left: 10px; background-color: #FFFFFF; border-radius: 4px; box-shadow: 0px 0px 10px #333333; float: left;}
+.XHB-nav-home .container  .home { height: 25px; padding: 5px 0px 0px 10px; color: #06091a; font-size: 15px; float: left;}
+.XHB-nav-home .container  .home a { font-size: 15px; color: #06091a; text-decoration: none; }
+.XHB-nav-home .container  .item a:hover { font-size: 15px; color: #666666; text-decoration: none; }
+.XHB-nav-home .container  .item { height: 25px; padding: 5px 10px 0px 10px; float: left;}
+.XHB-nav-home .container  .split { height: 25px; padding: 5px 0px 0px 0px; color: #06091a; font-size: 15px; float: left;}
+.XHB-nav-home .container  .item a { font-size: 15px; color: #06091a; text-decoration: none; }
+.XHB-nav-home .container  .item a:hover { width: auto; height: 25px; color: #666666; font-size: 15px; float: left;}
+
+.XHB-nav-tab { width: 100%; height: 30px; margin-top: 10px; float: left;}
+.XHB-nav-tab .list { width: 100%; height: 100%; float: left;}
+.XHB-nav-tab .list .item { width: auto; height: 25px; padding: 5px 10px 0px 10px; margin-left: 10px; float: left;}
+.XHB-nav-tab .list .item:hover { width: auto; height: 25px; padding: 5px 10px 0px 10px; margin-left: 10px; border-top-left-radius: 4px;
+        border-top-right-radius: 4px; background-color: #FFFFFF; color: #06091a; float: left;}
+.XHB-nav-tab .list .item:hover a { font-size: 15px; color: #06091a; text-decoration: none;}
+.XHB-nav-tab .list .item a { font-size: 15px; color: #FFFFFF; text-decoration: none; }
+.XHB-nav-tab .list .active { width: auto; height: 25px; padding: 5px 10px 0px 10px; margin-left: 10px; border-top-left-radius: 4px;
+        border-top-right-radius: 4px; background-color: #FFFFFF; color: #06091a; box-shadow: 0px 0px 10px #333333; float: left;}
+.XHB-nav-tab .list .active a { font-size: 15px; color: #06091a; text-decoration: none;}
+.XHB-nav-tab .bottom { width: 100%; height: 2px; background-color: #FFFFFF; float: left;}
+
+.XHB-table { width: 100%; margin: 10px 10px 0px 10px; border: 1px solid #FFFFFF; border-radius: 4px; overflow: hidden; box-shadow: 0px 0px 10px #333333; float: left;}
+.XHB-table .title { width: 100%; background-color: #FFFFFF; font-size: 15px; overflow: hidden; float: left;}
+.XHB-table .title .item { padding: 5px 10px; font-size: 15px; font-weight: bold; color: #06091a; overflow: hidden; float: left;}
+.XHB-table .title .item a { font-size: 15px; font-weight: bold; color: #06091a; text-decoration: none;}
+.XHB-table .data { width: 100%; border-bottom: 1px dashed #FFFFFF; float: left;}
+.XHB-table .data:hover { width: 100%; background-color: #087A68; border-bottom: 1px dashed #FFFFFF; float: left;}
+.XHB-table .data .item { padding: 5px 10px; font-size: 15px; color: #FFFFFF; overflow: hidden; float: left;}
+.XHB-table .data .item .text { padding-top: 5px; margin: 0px;}
+.XHB-table .data .item a { font-size: 15px; color: #FFFFFF; text-decoration: none;}
+.XHB-table .data .right { padding: 8px 10px 5px 10px; font-size: 15px; color: #FFFFFF; overflow: hidden; float: right; overflow: hidden;}
+.XHB-table .data .right .text { padding-top: 5px; margin: 0px;}
+.XHB-table .data .right a { font-size: 15px; color: #FFFFFF; text-decoration: none;}
+.XHB-table .operate { width: 100%; background-color: #06091a; border-bottom: 1px dashed #FFFFFF; display: none; float: left;}
+.XHB-table .operate .item { padding: 3px 10px; font-size: 15px; color: #FFFFFF; overflow: hidden; float: right;}
+.XHB-table .operate .item .text { text-align: right; padding-top: 5px; margin: 0px;}
+.XHB-table .operate .item a { font-size: 15px; color: #FFFFFF; text-decoration: none;}
+.XHB-table .empty { width: 100%; height: 35px; padding-top: 15px; color: #FFFFFF; font-size: 15px; text-align: center; overflow: hidden; float: left;}
+.XHB-table .empty a { font-size: 15px; color: #FFFFFF; text-decoration: none;}
+.XHB-search { width: 100%; margin: 10px 10px 0px 10px; border: 1px solid #FFFFFF; border-radius: 4px; overflow: hidden; box-shadow: 0px 0px 10px #333333; float: left;}
+.XHB-search .title { width: 100%; height: 24px; padding: 3px 10px; background-color: #FFFFFF; font-size: 15px; font-weight: bold; 
+        color: #06091a; overflow: hidden; float: left;}
+.XHB-search .data { width: 100%; float: left;}
+.XHB-search .data .item { padding: 3px 10px; font-size: 15px; color: #FFFFFF; overflow: hidden; float: left;}
+
+.XHB-form { width: 100%; margin: 10px 10px 0px 10px; border: 1px solid #FFFFFF; border-radius: 4px; overflow: hidden; box-shadow: 0px 0px 10px #333333; float: left;}
+.XHB-form .title { width: 100%; height: 24px; padding: 3px 10px; background-color: #FFFFFF; font-size: 15px; font-weight: bold; 
+        color: #06091a; overflow: hidden; float: left;}
+.XHB-form .line { width: 100%; float: left;}
+.XHB-form .line .item { padding: 3px 10px; font-size: 15px; color: #FFFFFF; overflow: hidden; float: left;}
+
+.XHB-message-confirm { width: 400px; height: 130px; position: absolute; top: 55px; left: 55px; background:rgba(0,0,0,0.7); 
+    margin: auto auto; border: 0px; border-radius: 4px; z-index: 99; box-shadow: 0px 0px 10px #333333;}     
+.XHB-message-confirm .text { width: 380px; height: 70px; padding: 10px 10px 0px 10px; text-align: left; font-size: 15px; color: #FFFFFF; 
+    line-height: 22px; word-break: break-word; word-wrap: break-word; overflow: hidden; float: left;}
+.XHB-message-confirm .button { width: 100%; margin-top: 10px; text-align: center; float: left;}
+
+.XHB-message-toast { width: 400px; height: auto; position: absolute; top: 55px; left: 55px; margin: auto auto; z-index: 99; box-shadow: 0px 0px 10px #333333;}
+.XHB-message-toast .container { width: 100%; border: 0px; border-radius: 3px; padding: 10px; background:rgba(0,0,0,0.7); float: left;}
+.XHB-message-toast .container .text { width: 100%; min-height: 30px; text-align: center; font-size: 15px; color: #FFFFFF; 
+    line-height: 22px; word-break: break-word; word-wrap: break-word; overflow: hidden; float: left;}
+.XHB-message-toast .container .button { width: 100%; margin-top: 10px; text-align: center; float: left;}
+
+.XHB-menu-div { width: 230px; height: 100%; margin: 10px; padding: 0px 0px; background-color: #06091a; border-radius: 4px; box-shadow: 0px 0px 10px #333333; float: left;}
+.XHB-menu-div .menu-title { width: 100%; height: 60px; padding: 10px 0px; border-bottom: 1px dashed #999999; float: left;}
+.XHB-menu-div .menu-title .headerpic { width: 70px; height: 60px; float: left;}
+.XHB-menu-div .menu-title .headerpic img { width: 60px; height: 100%; margin-left: 10px; border: 0px; border-radius: 30px;}
+.XHB-menu-div .menu-title .userinfo { width: 130px; height: 60px; float: left;}
+.XHB-menu-div .menu-title .userinfo .wellcom { width: 110px; height: 20px; margin: 5px 10px 0px 10px; color: #FFFFFF; font-size: 15px; float: left;}
+.XHB-menu-div .menu-title .userinfo .username { height: 20px; margin: 5px 10px 0px 10px; padding: 0px 10px; color: #008080; background-color: #FFFFFF; 
+        font-size: 15px; border-radius: 4px; box-shadow: 0px 0px 10px #333333; float: left;}
+.XHB-menu-div .menu-title .userinfo .logout { width: 110px; height: 20px; margin: 5px 10px 0px 10px; float: left;}
+.XHB-menu-div .menu-title .userinfo .logout a { color: #FFFFFF; font-size: 15px; text-decoration: double; }
+.XHB-menu-div .menu-title .userinfo .logout a:hover,.XHB-menu-div .menu-title .userinfo .logout a:visited { color: #FFFFFF; font-size: 15px; text-decoration: double;}
+.XHB-menu-div .menu-ui { width: 100%; padding: 0px; margin: 0px; float: left;}
+.XHB-menu-div .menu-ui-li { width: 100%; text-align: left; border-bottom: 1px dashed #999999; float: left;}
+.XHB-menu-div .menu-ui-li-title { width: 150px; padding: 5px 25px; float: left;}
+.XHB-menu-div .menu-ui-li-title a { width: 100%; height: 100%; color: #FFFFFF; font-size: 15px; font-weight: bold; text-decoration: none; float: left;}
+.XHB-menu-div .menu-ui-li-title a:hover { color: #666666; font-weight: bold;}
+.XHB-menu-div .menu-ui-li-item { width: 160px; padding: 0px 30px 2px 30px; float: left;}
+.XHB-menu-div .menu-ui-li-item a { width: 100%; padding: 3px 0px; text-indent: 15px; color: #FFFFFF; font-size: 15px; text-decoration: none; float: left;}
+.XHB-menu-div .menu-ui-li-item a:hover { color: #666666; font-weight: bold;}
+
+.XHB-open { width: auto; height: 300px; min-width: 600px; position: absolute; top: 5px; left: 5px; background:rgba(0,0,0,0.7); 
+    margin: auto auto; border: 0px; border: 1px solid #CCCCCC; z-index: 99; box-shadow: 0px 0px 15px #333333;} 
+.XHB-open .title { width: 100%; height: 35px; background-color: #FFFFFF; border: 0px; float: left;}
+.XHB-open .title .text { padding: 8px 10px 0px 10px; font-size: 15px; color: #008080; float: left;}
+.XHB-open .title .close { padding: 8px 10px 0px 10px; font-size: 15px; color: #008080; cursor: pointer; float: right;}
+.XHB-open iframe { width: 100%; border: 0px; float: left;}
+
+.XHB-confirm { width: 400px; height: 130px; position: absolute; top: 55px; left: 55px; background:#008080; 
+    margin: auto auto; border: 1px solid #666666; border-radius: 4px; z-index: 99; box-shadow: 0px 0px 10px #333333;}     
+.XHB-confirm .title { width: 100%; height: 35px; overflow: hidden; float: left;}
+.XHB-confirm .title .text { width: 380px; padding: 0px 20px; text-align: left; font-size: 15px; color: #FFFFFF; 
+    line-height: 35px; overflow: hidden; float: left;}
+.XHB-confirm .message { width: 100%; float: left;}
+.XHB-confirm .message .text { width: 380px; height: 45px; padding: 0px 20px; text-align: left; font-size: 15px; color: #FFFFFF; 
+    line-height: 22px; word-break: break-word; word-wrap: break-word; overflow: hidden; float: left;}
+.XHB-confirm .button { width: 100%; margin-top: 10px; text-align: center; float: left;}
+
+.XHB-pagenate { width: 100%; float: left; }
+.XHB-pagenate .container { height: 30px; padding-top: 10px; text-align: center; margin: 0px auto; }
+.XHB-pagenate .container .page { width: auto; height: 35px; padding: 3px 20px; margin: 0px 10px; text-align: center; border: none; background-color: #009688;
+    border-radius: 2px; color: #FFFFFF; font-size: 15px; cursor: pointer; text-decoration: none; box-shadow: 0px 0px 10px #333333;}
+.XHB-pagenate .container .page:hover { width: auto; height: 35px; margin: 0px 10px; text-align: center; border: none; background-color: #FFFFFF;
+    border-radius: 2px; color: #009688; font-size: 15px; cursor: pointer; box-shadow: 0px 0px 10px #333333;}
+.XHB-pagenate .container .total { width: auto; height: 35px; padding: 3px 20px; margin: 0px 10px; text-align: center; border: none; background-color: #009688;
+    border-radius: 2px; color: #FFFFFF; font-size: 15px; text-decoration: none; box-shadow: 0px 0px 10px #333333;}
+
+.XHB-loading { width: 80px; height: 80px; position: absolute; top: 55px; left: 55px; background:rgba(51,51,51,0.7); 
+        margin: auto auto; border: 0px; border-radius: 4px; z-index: 99; box-shadow: 0px 0px 10px #333333;}
+.XHB-loading img{ width: 100%; height: 100%; border-radius: 10px; border: 0px;}

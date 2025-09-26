@@ -1,0 +1,27 @@
+/*about*/
+#about {
+    width: 100%;
+    margin-top: 5px;
+    float: left;
+}
+#about .body {
+    width: 980px;
+    margin: 0px auto;
+}
+#about .body .con {
+    width: 960px;
+    padding: 10px;
+    background-image: url(/Imagecon_bg.png);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    overflow: hidden;
+    float: left;
+}
+#about .body .company .con a {
+    line-height: 25px;
+    color: #06091a;
+    text-decoration: none;
+}
+#about .body .company .con a:hover {
+    text-decoration: underline;
+}

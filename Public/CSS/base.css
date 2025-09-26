@@ -1,0 +1,390 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    margin:0px;
+    padding:0px;
+    font-family:微软雅黑,Arial,Helvetica,sans-serif,宋体;
+    font-size:15px;
+    background-color: #fff;
+    background-image: url(/Image/BodyBG.gif);
+    color: #333;
+}
+a {
+    font-family:微软雅黑,Arial,Helvetica,sans-serif,宋体;
+    font-size:14px;
+    color:#333;
+}
+a:link {
+    text-decoration:none;
+}
+a:visited {
+    text-decoration:none;
+    color:#333;
+}
+a:hover {
+    text-decoration:underline;
+    color: #005580;
+}
+a:active {
+    text-decoration:none;
+    color:#333;
+}
+.clear {
+    clear:both;
+}
+img,ul {
+    margin:0px;
+    padding:0px;
+    border:0px;
+}
+li {
+    list-style-type: none;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.display_none {
+    display: none;
+}
+.li_mark {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #666;
+}
+.btitle {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #fff;
+    background: url(/Imagetile_bg.png) 0px -303px repeat-x;
+    text-indent: 10px;
+    float: left;
+}
+.gtitle {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #fff;
+    /*background: url(/Imagegtitle_bg.gif);*/
+    text-indent: 10px;
+    background-color: #06091a;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom: 1px solid #020309;
+    float: left;
+}
+.gtitle span {
+    font-size: 15px;
+    color: #CCCCCC;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    padding: 0 6px;
+}
+.qq_float {
+    width: 20px;
+    height: 20px;
+    border: 0px;
+}
+.qq_bottom {
+    width: 72px;
+    height: 22px;
+    border: 0px;
+    padding-left: 3px;
+}
+/*head*/
+#head {
+    width: 100%;
+    height: 80px;
+    background-color: #06091a;
+    border-bottom: 1px solid #020309;
+    float: left;
+}
+#head .body {
+    width: 980px;
+    height: 80px;
+    overflow: hidden;
+    margin: 0px auto;
+}
+#head .body .logo{
+    width: 500px;
+    height: 80px;
+    float: left;
+}
+#head .body .logo .text { width: 100%; margin-top: 25px; font-size: 30px; font-weight: bold; color: #FFFFFF; float: left;}
+#head .body .logo img {
+    width: 500px;
+    height: 100%;
+    float: left;
+}
+#head .body .search {
+    width: 290px;
+    height: 100px;
+    padding-left: 50px;
+    float:left;
+}
+#head .body .search .action {
+    height: 35px;
+    margin-top: 30px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 3px;
+    overflow: hidden;
+    float: left;
+}
+#head .body .search .action .sinput {
+    width: 210px;
+    height: 32px;
+    overflow: hidden;
+    float:left;
+}
+#head .body .search .action .sinput input{
+    margin-top: 2px;
+    width: 210px;
+    height: 32px;
+    line-height:32px;
+    border: 0px;
+    text-indent: 10px;
+}
+#head .body .search .action .ssubmit {
+    width: 70px;
+    height: 35px;
+    color: #fff;
+    background-color: #06091a;
+    text-align: center;
+    line-height:35px;
+    font-size: 14px;
+    cursor: pointer;
+    overflow: hidden;
+    float: left;
+}
+#nav{
+    width: 100%;
+    /*background: url(/Imagetile_bg.png) 0px -303px repeat-x;*/
+    border-bottom: 1px solid #020309;
+    background-color: #06091a;
+    float: left;
+}
+#nav .body {
+    width: 980px;
+    margin: 0px auto;
+}
+#nav .body ul {
+    margin:0px;
+    padding:0px;
+    float:left;
+}
+#nav .body ul li {
+    padding: 0px 15px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 3px;
+    float: left;
+}
+#nav .body ul li a {
+    padding: 0px 15px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+
+}
+#nav .body ul .li_selected {
+    background-color: #fff;
+    color: #020309;
+}
+#nav .body ul .li_selected a {
+    color: #020309;
+}
+/*location*/
+#location {
+    margin-top: 5px;
+    width: 100%;
+    float: left;
+}
+#location .body {
+    width: 1280px;
+    height: 30px;
+    padding: 0px 10px;
+    line-height: 30px;
+    font-size: 15px;
+    color: #06091a;
+    border: 1px solid #ddd;
+    background-image: url(/Imagecon_bg.png);
+    border-radius: 3px;
+    overflow: hidden;
+    margin: 0px auto;
+}
+#location .body a {
+    font-size: 15px;
+    color: #06091a;
+    text-decoration: none;
+}
+#location .body a:hover {
+    text-decoration: underline;
+}
+/*contactdiv*/
+#contactdiv {
+    width: 190px;
+    height: 314px;
+    border: 1px solid #ddd;
+    background-image: url(/Imagecontact_bg.jpg);
+    overflow: hidden;
+    float: left;
+}
+#contactdiv .con {
+    margin-top: 240px;
+    width: 190px;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 5px 10px;
+    color: #06091a;
+    /*background-color: #fbfbfb;*/
+    overflow: hidden;
+    float: left;
+}
+#contactdiv .con a {
+    color: #06091a;
+}
+#contactdiv .con .cont {
+    width: 100%;
+    font-size: 15px;
+    line-height: 22px;
+    float: left;
+}
+#contactdiv .con .cont a {
+    font-size: 15px;
+}
+#contactdiv .con .cont .qq_con {
+    width: 100%;
+    float: left;
+}
+#contactdiv .con .cont .qq_con span {
+    padding-right: 2px;
+    float: left;
+}
+#contactdiv .con .add {
+    width: 180px;
+    line-height: 25px;
+    float: left;
+}
+/*fengjing*/
+#fengjing {
+    width: 100%;
+    float: left;
+}
+#fengjing .body {
+    width: 980px;
+    margin: 0px auto;
+}
+#fengjing .body .title {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    color: #333;
+    text-indent: 10px;
+    font-size: 14px;
+    border-left: 1px solid #ddd;
+    border-top: 2px solid #06c;
+    border-right: 1px solid #ddd;
+    background: url(/Imagetile_bg.png) 0px -7px repeat-x;
+}
+#fengjing .body .con {
+    width: 100%;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    padding-bottom: 5px;
+    float: left;
+}
+#fengjing .body .con ul {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+#fengjing .body .con ul li {
+    width: 186px;
+    padding: 5px 5px 0px 5px;
+    overflow: hidden;
+    float: left;
+}
+#fengjing .body .con ul li img {
+    width: 186px;
+    height: 170px;
+}
+#probox{
+    width:980px;
+    overflow:hidden;
+    height:190px;
+}
+#prolist{
+    width:1500px;
+    text-align: center;
+}
+/*footer*/
+#footer {
+    width: 100%;
+    margin-top: 5px;
+    border-top: 2px solid #06091a;
+    /*background-color: #666;*/
+    background-image: url(/Imagefooter_bg.png);
+    background-repeat: repeat-x;
+    float: left;
+}
+#footer .body {
+    width: 960px;
+    padding: 10px;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    margin: 0px auto;
+}
+#footer .body a {
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+}
+#footer .body a:hover {
+    text-decoration: underline;
+}
+#footer .body b {
+    font-weight: normal;
+    text-decoration: underline;
+}
+.pagination {
+    width: 100%;
+    height: 30px;
+    font-size:14px; 
+    font-weight:bold; 
+    color: #06091a; 
+    text-align: center;
+    margin: 0px auto; 
+}
+.pagination li {
+    float: left;
+}
+.pagination li a,.pagination .disabled span { 
+    border: #06091a 1px solid; 
+    padding:5px 15px;
+    color: #06091a; 
+    margin-right: 3px; 
+}
+.pagination li a:visited {
+    border: #06091a 1px solid; 
+    padding:5px 15px;
+    color: #06091a; 
+    margin-right: 3px;
+}
+.pagination .active span{
+    border: #06091a 1px solid; 
+    padding:5px 15px;
+    margin-right: 3px; 
+    background:#06091a;
+    color:#fff;
+}

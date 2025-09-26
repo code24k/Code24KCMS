@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+/*#article*/
+#article {
+    width: 100%;
+    float: left;
+}
+#article .body {
+    width: 1300px;
+    margin: 0px auto;
+}
+#article .body .left {
+    width: 260px;
+    float: left;
+}
+#article .body .left ul {
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+#article .body .left .articleRecom {
+    margin-top: 5px;
+    width: 100%;
+    float: left;
+}
+#article .body .left a {
+    color: #333333;
+}
+#article .body .left .articleRecom .con {
+    width: 240px;
+    padding: 5px 10px;
+    background-image: url(/Imagecon_bg.png);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    overflow: hidden;
+    float: left;
+}
+#article .body .left .articleRecom .con li {
+    width: 100%;
+    line-height: 30px;
+    border-bottom: 1px dashed #fbfbfb;
+    overflow: hidden;
+    float: left;
+}
+#article .body .left .productRecomm {
+    margin-top: 5px;
+    width: 100%;
+    float: left;
+}
+#article .body .left .productRecomm .con {
+    width: 100%;
+    background-image: url(/Imagecon_bg.png);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    overflow: hidden;
+    float: left;
+}
+#article .body .left .productRecomm .con li {
+    width: 200px;
+    padding: 0px 10px;
+    height: 35px;
+    line-height: 35px;
+    /*background-image: url(/Imagecon_cate_bg_curr.png);*/
+    border-bottom: 1px solid #fbfbfb;
+    overflow: hidden;
+    float: left;
+}
+#article .body .left .productRecomm .con li:hover {
+    background-image: url(/Imagecon_cate_bg_curr.png);
+    /* background-color: #06091a; */
+}
+#article .body .left .productRecomm .con li:hover a{
+    color: #fff;
+}
+#article .body .left .contact {
+    margin-top: 5px;
+    width: 100%;
+    float: left;
+}
+#article .body .left .contact .con {
+    width: 100%;
+    background-image: url(/Imagecon_bg.png);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    overflow: hidden;
+    float: left;
+}
+#article .body .left .contact .con img {
+    width: 100%;
+    height: 100px;
+}
+#article .body .right {
+    margin-top: 5px;
+    width: 1030px;
+    float: right;
+}
+#article .body .right .con {
+    width: 1010px;
+    padding: 10px;
+    background-image: url(/Imagecon_bg.png);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    overflow: hidden;
+    float: left;
+}
+#article .body .right .con .line {
+    width: 100%;
+    color: #333333;
+    float: left;
+}
+#article .body .right .con .line a {
+    color: #333333;
+}
+#article .body .right .con .line .title {
+    width: 600px;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px dashed #fbfbfb;
+    float: left;
+}
+#article .body .right .con .line .date {
+    width: 130px;
+    height: 30px;
+    font-style: italic;
+    border-bottom: 1px dashed #fbfbfb;
+    float: left;
+}
+#article .body .right .con .pagenate {
+    width: 100%;
+    float: left;
+}
+#article .body .right .con .pagenate .container { height: 30px; padding-top: 10px; text-align: center; margin: 0px auto; }
+#article .body .right .con .pagenate .container .page { width: auto; height: 35px; padding: 3px 20px; margin: 0px 10px; text-align: center; border: none; background-color: #06091a;
+    border-radius: 2px; color: #FFFFFF; font-size: 15px; cursor: pointer; text-decoration: none; box-shadow: 0px 0px 10px #333333;}
+#article .body .right .con .pagenate .container .page:hover { width: auto; height: 35px; margin: 0px 10px; text-align: center; border: none; background-color: #FFFFFF;
+    border-radius: 2px; color: #06091a; font-size: 15px; cursor: pointer; box-shadow: 0px 0px 10px #333333;}
+#article .body .right .con .pagenate .container .total { width: auto; height: 35px; padding: 3px 20px; margin: 0px 10px; text-align: center; border: none; background-color: #06091a;
+    border-radius: 2px; color: #FFFFFF; font-size: 15px; text-decoration: none; box-shadow: 0px 0px 10px #333333;}
+#article .body .right .artTitle {
+    width: 100%;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+}
+#article .body .right .artTitle a {
+    color: #333333;
+    font-size: 18px;
+}
+#article .body .right .artAuthor {
+    width: 100%;
+    line-height: 25px;
+    font-size: 14px;
+    text-align: center;
+    color: #333333;
+    float: left;
+}
+#article .body .right .artContent {
+    width: 100%;
+    line-height: 25px;
+    font-size: 14px;
+    color: #333333;
+    float: left;
+}

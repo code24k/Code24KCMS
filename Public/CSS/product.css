@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+/*#product*/
+#product {
+    width: 100%;
+    float: left;
+}
+#product .body {
+    width: 1300px;
+    margin: 0px auto;
+}
+#product .body .left {
+    width: 260px;
+    float: left;
+}
+#product .body .left ul {
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+#product .body .left .newsRcomm {
+    margin-top: 5px;
+    width: 100%;
+    float: left;
+}
+#product .body .left a {
+    color: #06091a;
+}
+#product .body .left .newsRcomm .con {
+    width: 200px;
+    padding: 5px 10px;
+    background-image: url(/Image/con_bg.png);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    overflow: hidden;
+    float: left;
+}
+#product .body .left .newsRcomm .con li {
+    width: 100%;
+    line-height: 30px;
+    border-bottom: 1px dashed #fbfbfb;
+    overflow: hidden;
+    float: left;
+}
+#product .body .left .productRecomm {
+    margin-top: 5px;
+    width: 100%;
+    float: left;
+}
+#product .body .left .productRecomm .con {
+    width: 100%;
+    background-image: url(/Image/con_bg.png);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    overflow: hidden;
+    float: left;
+}
+#product .body .left .productRecomm .con li {
+    width: 200px;
+    padding: 0px 10px;
+    height: 35px;
+    line-height: 35px;
+    /*background-image: url(/Image/con_cate_bg_curr.png);*/
+    border-bottom: 1px solid #fbfbfb;
+    overflow: hidden;
+    float: left;
+}
+#product .body .left .productRecomm .con li:hover {
+    /* background-image: url(/Image/con_cate_bg_curr.png); */
+    background-color: #06091a;
+}
+#product .body .left .productRecomm .con li:hover a{
+    color: #fff;
+}
+#product .body .left .contact {
+    margin-top: 5px;
+    width: 100%;
+    float: left;
+}
+#product .body .left .contact .con {
+    width: 100%;
+    background-image: url(/Image/con_bg.png);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    overflow: hidden;
+    float: left;
+}
+#product .body .left .contact .con img {
+    width: 100%;
+    height: 100px;
+}
+#product .body .right {
+    margin-top: 5px;
+    width: 1030px;
+    float: right;
+}
+#product .body .right .con {
+    width: 1010px;
+    padding: 10px;
+    background-image: url(/Image/con_bg.png);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    overflow: hidden;
+    float: left;
+}
+#product .body .right .con .name {
+    width: 100%;
+    color: #06091a;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+}
+#product .body .right .con .artPic {
+    padding: 10px 100px;
+    width: 530px;
+    height: 700px;
+    float: left;
+}
+#product .body .right .con .artPic img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+}
+#product .body .right .con ul {
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+#product .body .right .con ul li {
+    width: 202px;
+    height: 240px;
+    float: left;
+}
+#product .body .right .con ul li .pic {
+    width: 100%;
+    height: 200px;
+    float: left;
+}
+#product .body .right .con ul li .pic img {
+    width: 198px;
+    height: 100%;
+    border-radius: 3px;
+    border: 0px;
+}
+#product .body .right .con ul li .name {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    float: left;
+}
+#product .body .right .con ul li .name a {
+    text-decoration: none;
+    color: #06091a;
+}
+#product .body .right .con .pagenate {
+    width: 100%;
+    float: left;
+}
+#product .body .right .con .pagenate .container { height: 30px; padding-top: 10px; text-align: center; margin: 0px auto; }
+#product .body .right .con .pagenate .container .page { width: auto; height: 35px; padding: 3px 20px; margin: 0px 10px; text-align: center; border: none; background-color: #06091a;
+    border-radius: 2px; color: #FFFFFF; font-size: 15px; cursor: pointer; text-decoration: none; box-shadow: 0px 0px 10px #333333;}
+#product .body .right .con .pagenate .container .page:hover { width: auto; height: 35px; margin: 0px 10px; text-align: center; border: none; background-color: #FFFFFF;
+    border-radius: 2px; color: #06091a; font-size: 15px; cursor: pointer; box-shadow: 0px 0px 10px #333333;}
+#product .body .right .con .pagenate .container .total { width: auto; height: 35px; padding: 3px 20px; margin: 0px 10px; text-align: center; border: none; background-color: #06091a;
+    border-radius: 2px; color: #FFFFFF; font-size: 15px; text-decoration: none; box-shadow: 0px 0px 10px #333333;}

@@ -1,0 +1,187 @@
+#box .btnList{ /*btnListClass，索引列表的class名*/
+    position:absolute;
+    right:10px;
+    bottom:5px;
+    clear:both;
+}
+#box .btnList li{ /*btnListClass下面的LI*/
+    background: #000;
+    width:25px;
+    height:25px;
+    line-height:25px;
+    overflow:hidden;
+    color: #fff;
+    margin: 1px;
+    cursor: pointer;
+    opacity:.7;
+    float:left;
+    filter:alpha(opacity=70);
+}
+#box .btnList li.current{/*btnClass，当前索引的class名*/
+    background: #999;
+    color:#000;
+}
+#text{
+    position:absolute;
+    bottom: 0px;
+    text-align: left;
+    left:0px;
+    background:#000000;
+    width: 100%;
+    color: #ffffff;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    opacity:.5;
+    filter:alpha(opacity=50);
+}
+/*focus*/
+#focus {
+    width: 100%;
+    height: 400px;
+    float: left;
+}
+#box,#list {
+    width: 100%;
+    height: 400px;
+    float: left;
+}
+#list li {z-index:1;overflow:hidden;width:100%;height: 100%;}
+#list li img {width:100%;height: 100%;}
+#box {overflow:hidden;}
+#list li{z-index:1;overflow:hidden;}
+#box .btnList{position:absolute;right:10px;bottom:2px;clear:both;}
+#box .btnList li{background: #000;width:25px;height:25px;line-height:25px;text-align:center;overflow:hidden;color:#fff;margin: 1px;cursor: pointer;opacity:.7; float:left;filter:alpha(opacity=70);}
+#box .btnList li.current{background: #999;color:#000;}
+#text{position:absolute;bottom: 0px;text-align: left;left:0px;background:#000000;width: 100%;color: #ffffff;padding-left: 10px;height: 30px;line-height: 30px;opacity:.5;filter:alpha(opacity=50);}
+/*introduce*/
+#introduce {
+    width: 100%;
+    margin-top: 5px;
+    float: left;
+}
+#introduce .body {
+    width: 980px;
+    height: 190px;
+    margin: 0px auto;
+}
+#introduce .body .company {
+    width: 380px;
+    height: 100%;
+    float: left;
+}
+#introduce .body .company .con {
+    width: 360px;
+    height: 150px;
+    padding: 5px 10px;
+    background-image: url(/Imagecon_bg.png);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    overflow: hidden;
+    float: left;
+}
+#introduce .body .company .con a {
+    line-height: 25px;
+    color: #06091a;
+    text-decoration: none;
+}
+#introduce .body .company .con a:hover {
+    text-decoration: underline;
+}
+#introduce .body .newProduct {
+    width: 590px;
+    height: 100%;
+    float: right;
+}
+#introduce .body .newProduct .con {
+    width: 570px;
+    height: 150px;
+    padding: 5px 10px;
+    background-image: url(/Imagecon_bg.png);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    overflow: hidden;
+    float: left;
+}
+#introduce .body .newProduct .con ul {
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+#introduce .body .newProduct .con ul li {
+    width: 142px;
+    height: 100%;
+    text-align: center;
+    float: left;
+}
+#introduce .body .newProduct .con ul li img {
+    width: 140px;
+    height: 100%;
+    border-radius: 3px;
+    border: 0px;
+}
+/*recommend*/
+#productHot {
+    width: 100%;
+    margin-top: 5px;
+    float: left;
+}
+#productHot .body {
+    width: 1300px;
+    margin: 0px auto;
+}
+#productHot .body .con {
+    width: 1280px;
+    padding: 0px 10px 5px 10px;
+    background-image: url(/Imagecon_bg.png);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    overflow: hidden;
+    float: left;
+}
+#productHot .body .con .item {
+    margin-top: 10px;
+    width: 256px;
+    height: 275px;
+    text-align: center;
+    float: left;
+    overflow: hidden;
+}
+#productHot .body .con .item img {
+    width: 245px;
+    height: 245px;
+    border-radius: 3px;
+    border: 0px;
+}
+#productHot .body .con .item .title { width: 100%; height: 30px; text-align: center; line-height: 25px; float: left;}
+#productHot .body .con .item .title a { font-size: 15px; color: #333333; }
+/*link*/
+#link {
+    width: 100%;
+    margin-top: 5px;
+    float: left;
+}
+#link .body {
+    width: 980px;
+    margin: 0px auto;
+}
+#link .body .con {
+    width: 960px;
+    padding: 5px 10px;
+    background-image: url(/Imagecon_bg.png);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    overflow: hidden;
+    float: left;
+}
+#link .body .con ul {
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+#link .body .con ul li {
+    width: 120px;
+    height: 22px;
+    line-height: 22px;
+    float: left;
+}
